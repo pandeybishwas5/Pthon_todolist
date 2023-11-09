@@ -1,0 +1,44 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-058-448
+DEBUG:main:This is a debug message
+INFO:main:This is an info message
+WARNING:main:This is a warning message
+ERROR:main:This is an error message
+CRITICAL:main:This is a critical message
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:55:18] "GET / HTTP/1.1" 200 -
+DEBUG:main:This is a debug message
+INFO:main:This is an info message
+WARNING:main:This is a warning message
+ERROR:main:This is an error message
+CRITICAL:main:This is a critical message
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:55:20] "GET / HTTP/1.1" 200 -
+DEBUG:main:This is a debug message
+INFO:main:This is an info message
+WARNING:main:This is a warning message
+ERROR:main:This is an error message
+CRITICAL:main:This is a critical message
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:55:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Bikram\\Desktop\\udemy_FS\\python-todo\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-058-448
+DEBUG:main:This is a debug message
+INFO:main:This is an info message
+WARNING:main:This is a warning message
+ERROR:main:This is an error message
+CRITICAL:main:This is a critical message
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:56:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:56:43] "[32mPOST /add_task HTTP/1.1[0m" 302 -
+DEBUG:main:This is a debug message
+INFO:main:This is an info message
+WARNING:main:This is a warning message
+ERROR:main:This is an error message
+CRITICAL:main:This is a critical message
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:56:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:56:46] "[32mGET /remove_task/0 HTTP/1.1[0m" 302 -
+DEBUG:main:This is a debug message
+INFO:main:This is an info message
+WARNING:main:This is a warning message
+ERROR:main:This is an error message
+CRITICAL:main:This is a critical message
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2023 21:56:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Bikram\\Desktop\\udemy_FS\\python-todo\\main.py', reloading
