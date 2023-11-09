@@ -11,6 +11,11 @@ header {
     padding: 10px;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+
+}
 /* Style the task list */
 ul {
     display: flex;

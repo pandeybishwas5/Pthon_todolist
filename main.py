@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
+import datetime
 
 
 
@@ -8,7 +9,8 @@ tasks = []
 
 @app.route('/')
 def index():
-    return render_template('index.html', tasks=tasks)
+    current_year = datetime.datetime.now().year
+    return render_template('index.html', tasks=tasks, current_year=current_year)
 
 @app.route('/add_task', methods=['POST'])
 def add_task():
