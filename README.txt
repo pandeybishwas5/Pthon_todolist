@@ -24,6 +24,9 @@ python build.py
 
 python main.py
 
+#The application will run on 
+http://127.0.0.1:5000
+
 
 #The build script automates the installation of required dependencies, packages the application, and runs tests.
 #Note that one test intentionally fails as part of the project
@@ -53,3 +56,6 @@ pytest tests
 ### 5. Run Application
 
 python main.py
+
+#The application will run on 
+http://127.0.0.1:5000
