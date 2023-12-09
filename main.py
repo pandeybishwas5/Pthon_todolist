@@ -17,7 +17,9 @@ def add_task():
     task = request.form.get('task')
     if task:
         tasks.append(task)
-    return redirect(url_for('index'))
+        return redirect(url_for('index'))
+    else:
+        return "Bad Request: Invalid data", 400
 
 @app.route('/remove_task/<int:task_id>')
 def remove_task(task_id):
